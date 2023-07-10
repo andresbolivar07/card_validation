@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgba(228, 221, 212, 0.24);
+}
+
+header{
+display: flex;
+justify-content: center;
+}
+header > img {
+    width: 60%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+
+}
+#sale-text {
+    background-color: #c05e535d;
+    display: flex;
+    padding: 10%;
+    font-size: 3em;
+    text-align: center;
+    color: #242F21;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    
+}
+
+#creditCard-box {
+    background-color: #c05e5387;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 5%;
+    margin-bottom: 5%;
+    font-size: 3em;
+    text-align: center;
+    color: #242F21;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#cardCreditNumber {
+    width: 80%;
+    padding: 5%;
+    text-align: center;
+    font-size: 1em;
+}
+
+#btnValidate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+#validate {
+    padding: 4%;
+    width: 40%;
+    background-color:  #242F21;
+    color: white;
+    font-size: 3em;
+    border-radius: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+#footer1{
+    padding-top: 32%;
+    padding-bottom: 3%;
+    font-size: 2.5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
