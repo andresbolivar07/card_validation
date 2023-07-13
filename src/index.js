@@ -1,8 +1,5 @@
 import validator from './validator.js';
 
-
-
-
 const getCardNumber = () => {
 
     const cardNumber = document.getElementById("cardCreditNumber").value;
