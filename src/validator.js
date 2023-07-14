@@ -14,7 +14,6 @@ const validator = {
 
     let arrFilterPair = [];
     let counter = 0;
-
     for (let i = 0; i < arrFilter.length; i++) {
       counter = arrFilter[i] * 2;
       if (counter > 9) {
@@ -27,15 +26,20 @@ const validator = {
       arrFilterPair.push(counter);
     }
   }
-
   const arrNumbers = [...arrFilterOdd, ...arrFilterPair];
         let sums = 0;
         for (let i = 0; i < arrNumbers.length; i++) {
             sums += arrNumbers[i];
         }        
           return sums % 10 === 0 ;
-      }
-    }
+      },
+  
+  maskify(number){
 
-export default validator;
+    return number.replace(/.(?=.{4})/g, "#")
+  }
+}
+  export default validator;
+
+
 
