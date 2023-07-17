@@ -25,7 +25,7 @@ main {
     background-color: #c05e535d;
     display: flex;
     padding: 10%;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     color: #242F21;
     font-weight: bold;
@@ -42,7 +42,7 @@ main {
     width: 80%;
     padding: 5%;
     margin-bottom: 5%;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: #242F21;
     font-weight: bold;
@@ -59,11 +59,11 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 8%;
+    padding: 3%;
 }
 
 #validate {
-    padding: 4%;
+    padding: 3%;
     width: 40%;
     background-color:  #242F21;
     color: white;
@@ -78,9 +78,8 @@ footer{
 #footer1{
     width: 80%;
     text-align: center;
-    padding-top: 32%;
-    padding-bottom: 3%;
-    font-size: 1.5em;
+    padding-bottom: 5%;
+    font-size: 1em;
 }
 
 a{
