@@ -7,6 +7,10 @@ const assets = [
     './',
     './index.html',
     './img/favicon.ico',
+    './index.js',
+    './style.css',
+    './validator.js',
+    './img/logo.png'
 ]
 
 // eslint-disable-next-line arrow-parens
